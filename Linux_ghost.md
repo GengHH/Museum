@@ -1,8 +1,8 @@
-#在linux中部署ghost(开源博客)
-## 需求 ##
+# 在linux中部署ghost(开源博客)
+## 需求
 
   - 1.node.js环境
-  - 2.ghost自己改变的项目
+  - 2.ghost自己创建的项目
   
 ### 安装nvm来管理node.js
   
@@ -34,9 +34,9 @@
               v5.10.1
               v5.11.0
                v6.0.0
-###    安装相应的版本
+###  安装相应的版本
       nvm install v4.2.6
-###    查看已安装的版本
+###  查看已安装的版本
       nvm list
       ->    v4.2.6
             system
@@ -45,7 +45,7 @@
 ###   设置默认版本
       nvm alias default v0.10.30
       
-      
+    （自己安装的目录是 /var/www/Ghost-0.7.4）  
       
   - 5使用forever守护进程
 
